@@ -29,7 +29,7 @@ __END__
 
 =head1 NAME
 
-Net::POP3::OAuth2 - It enables to use XOAUTH2 authentication with L<Net::POP3>
+Net::POP3::XOAuth2 - It enables to use XOAUTH2 authentication with L<Net::POP3>
 
 =head1 SYNOPSIS
 
@@ -44,7 +44,7 @@ Net::POP3::OAuth2 - It enables to use XOAUTH2 authentication with L<Net::POP3>
 
 =head1 DESCRIPTION
 
-Net::POP3::OAuth is an extension for L<Net::POP3>. This allows you to use SASL XOAUTH2.
+Net::POP3::XOAuth2 is an extension for L<Net::POP3>. This allows you to use SASL XOAUTH2.
 
 =head1 METHODS
 
