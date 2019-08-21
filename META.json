@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "It enables to use XOAUTH2 authentication with L<Net::POP3>",
    "author" : [
       "@gmail.com>"
    ],
@@ -42,6 +42,8 @@
       },
       "runtime" : {
          "requires" : {
+            "MIME::Base64" : "0",
+            "Net::POP3" : "0",
             "perl" : "5.008001"
          }
       },
@@ -52,7 +54,10 @@
       }
    },
    "release_status" : "unstable",
-   "version" : "0.01",
+   "version" : "0.0.1",
+   "x_contributors" : [
+      "Kizashi Nagata <kizashi1122@gmail.com>"
+   ],
    "x_serialization_backend" : "JSON::PP version 2.97001",
    "x_static_install" : 1
 }
