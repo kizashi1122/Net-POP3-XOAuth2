@@ -54,6 +54,17 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/kizashi1122/Net-POP3-XOAuth2/issues"
+      },
+      "homepage" : "https://github.com/kizashi1122/Net-POP3-XOAuth2",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/kizashi1122/Net-POP3-XOAuth2.git",
+         "web" : "https://github.com/kizashi1122/Net-POP3-XOAuth2"
+      }
+   },
    "version" : "0.0.1",
    "x_contributors" : [
       "Kizashi Nagata <kizashi1122@gmail.com>"
