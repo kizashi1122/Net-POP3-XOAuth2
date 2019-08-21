@@ -10,7 +10,7 @@ use MIME::Base64;
 
 our $VERSION = '0.0.1';
 
-*Net::POP3::_AUTH = sub { shift->command('AUTH', $_[0])->response() == CMD_OK };
+*Net::POP3::_AUTH = sub { shift->command('AUTH', $_[0])->response() == Net::POP3::CMD_OK };
 *Net::POP3::xoauth2 = sub {
     @_ >= 1 && @_ <= 3 or croak 'usage: $pop3->xoauth2( USER, TOKEN )';
     my ($me, $user, $token) = @_;
